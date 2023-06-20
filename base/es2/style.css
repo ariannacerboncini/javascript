@@ -1,0 +1,59 @@
+.background-image {
+    background-image: url('./silvio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+div {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    border-radius: 100px;
+    transition-duration: 0.5s;
+    font-size: 48px;
+    padding: 40px;
+}
+
+#aumenta {
+    background-color: aquamarine;
+    /* color-scheme: dark; */
+}
+#aumenta:hover {
+    background-color: coral;
+}
+
+#azzera {
+    background-color: azure;
+    margin: 5px;
+}
+
+#diminuisci {
+    background-color: coral;
+    /* color-scheme: light; */
+}
+#diminuisci:hover {
+    background-color: aquamarine;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+#titolo {
+    font-size: 48px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(right, aquamarine, coral);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#contatore {
+    font-size: 72px;
+}
